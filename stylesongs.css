@@ -1,0 +1,188 @@
+/*Nav bar*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #00000079;
+}
+.header
+{
+    height: 80px;
+    width: 100%;
+    background-color: #00000070;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+nav{
+    display:flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 12x 12x;
+    position: relative;
+    margin-left: 8px;
+
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.nav-links ul li::after{
+    content:'';
+    width:0%;
+    height: 2px;
+    background: hsl(0, 0%, 100%);
+    display: block;
+    margin:auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.logo{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.logo::after{
+    content:'';
+    width:0%;
+    height: 2px;
+    background: hsl(0, 0%, 100%);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.logo:hover::after{
+    width: 100%;
+}
+
+
+
+/*Main body boxes for songs*/
+.service{
+    background: #00000080;
+    width: 80%;
+    padding: 100px 0px;
+    margin: auto;
+}
+.title h2{
+    color: white;
+    font-size: 45px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.title p{
+    color: white;
+    font-size: 20px;
+    width: 800px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 240px;
+    width: 240px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position:relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card1{
+    border-radius: 20px;
+    height: 430px;
+    width: 270px;
+    margin: 15px;
+    position:relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card1 img{
+    border-radius: 20px;
+}
+.card1 a{
+    color: white;
+    text-decoration: none;
+}
+
+/*footer content*/
+footer {
+    margin-top: 50px;
+    height: 35vh;
+    width: 100%;
+    background: #121b25;
+}
+.footer{
+    padding: 80px 13% 70px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    gap: 3.5rem;
+    background: #4b5b7e;
+    position:relative;
+    left:0;
+    right: 0;
+    bottom: 0;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.footer-content h4{
+    color: #FFFFF0;
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+}
+.footer-content ul li{
+    margin-bottom: 16px;
+    color: #FFFFF0;
+    font-size: 15px;
+    list-style-type: none;
+}
+.footer-content ul li a{
+    display: block;
+    color: #FFFFF0;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 400;
+    transition: all .40s ease;
+}
+.footer-content ul li a:hover{
+    transform: translateY(-3px) translateX(-5px);
+    color:#fff;
+}
+.footer-content p{
+    color: #FFFFF0;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 20px 0px;
+}

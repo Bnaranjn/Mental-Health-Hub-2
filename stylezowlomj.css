@@ -1,0 +1,191 @@
+
+.header {
+    min-height: 130px;
+    width: 100%;
+    /*background-color: #2C3E50; /* Navy Blue */
+    color: #000000;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+nav .logo {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+}
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 12px;
+    position: relative;
+    margin-left: 8px;
+}
+.nav-links ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+}
+.nav-links ul li::after{
+    content:'';
+    width:0%;
+    height: 2px;
+    background: hsl(0, 0%, 0%);
+    display: block;
+    margin:auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.mainp
+{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 40%;
+    margin: auto;
+    text-align: left;
+    padding-top: 100px;
+}
+mainp h1::after{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    content:'';
+    width:0%;
+    height: 2px;
+    background: hsl(0, 0%, 0%);
+    /*display: block;*/
+    margin:auto;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.zurag{
+    width: 300px;
+}
+.container{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display:flex;
+    justify-content: center;
+}
+.card{
+    background: white;
+    width: 220px;
+    height: 300px;
+    margin: 10px;
+    box-shadow: 0 0 10px 5px rgb(241, 241, 241);
+}
+.card-image{
+    background-color: rgb(255, 255, 255);
+    height: 120px;
+    margin-bottom: 10px;
+    background-position: center;
+}
+.zurag1{
+    background-image: url(Images/listening.jpg);
+    width:100%
+}
+.card h2{
+    font-size: 14px;
+    padding: 10px;
+}
+.card p{
+    padding: 10px;
+    font-size: 10px;
+}
+.card a {
+    color: black;
+    padding: 10px;
+    font-size: 10px;
+    font-style: italic;
+    display: inline-block; /* Required for transform effects */
+    transition: transform 0.3s ease, text-shadow 0.3s ease; /* Smooth transition */
+}
+
+.card a:hover {
+    transform: translate(-5px, -3px);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Adds shadow effect */
+}
+
+footer {
+    margin-top: 50px;
+    height: 35vh;
+    width: 100%;
+    background: #121b25;
+}
+.footer{
+    padding: 80px 13% 70px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    gap: 3.5rem;
+    background: #4b5b7e;
+    position:relative;
+    left:0;
+    right: 0;
+    bottom: 0;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.footer-content h4{
+    color: #FFFFF0;
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+}
+.footer-content ul li{
+    margin-bottom: 16px;
+    color: #FFFFF0;
+    font-size: 15px;
+    list-style-type: none;
+}
+.footer-content ul li a{
+    display: block;
+    color: #FFFFF0;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 400;
+    transition: all .40s ease;
+}
+.footer-content ul li a:hover{
+    transform: translateY(-3px) translateX(-5px);
+    color:#fff;
+}
+.footer-content p{
+    color: #FFFFF0;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 20px 0px;
+}
+.topic{
+    margin: auto;
+    text-align: center;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.topic h1::after{
+    margin: auto;
+    text-align: center;
+    content:'';
+    width:40%;
+    height: 3px;
+    background: hsl(0, 0%, 84%);
+    display: block;
+    transition: 0.5s;
+}
