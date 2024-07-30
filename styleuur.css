@@ -119,7 +119,7 @@ body {
     font-style: normal;
     display:flex;
     justify-content: center;
-}
+}/*
 .card{
     background: white;
     width: 220px;
@@ -152,9 +152,9 @@ body {
     padding: 10px;
     font-size: 12px;
     font-style: italic;
-    display: inline-block; /* Required for transform effects */
-    transition: transform 0.3s ease, text-shadow 0.3s ease; /* Smooth transition */
-}
+    display: inline-block; /* Required for transform effects 
+    transition: transform 0.3s ease, text-shadow 0.3s ease; /* Smooth transition 
+}*/
 
 .card a:hover {
     transform: translate(-5px, -3px);

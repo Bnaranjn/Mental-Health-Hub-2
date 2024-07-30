@@ -2,101 +2,6 @@
     margin: 0;
     padding: 0;
 }
-.header
-{
-    height: 80px;
-    width: 100%;
-    background-color: #2C3E50;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    font-family: "Arsenal SC", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-nav{
-    display:flex;
-    padding: 2% 6%;
-    justify-content: space-between;
-    align-items: center;
-    font-family: "Arsenal SC", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-nav img{
-    width: 150px;
-}
-.nav-links{
-    flex: 1;
-    text-align: right;
-    font-family: "Arsenal SC", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-.nav-links ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 12x 12x;
-    position: relative;
-    margin-left: 8px;
-
-}
-.nav-links ul li a{
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-}
-.nav-links ul li::after{
-    content:'';
-    width:0%;
-    height: 2px;
-    background: hsl(0, 0%, 100%);
-    display: block;
-    margin:auto;
-    transition: 0.5s;
-}
-.nav-links ul li:hover::after{
-    width: 100%;
-}
-.text-box{
-    width: 90%;
-    color: #fff;
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);/*will be in the center of the div*/
-    text-align: center;
-    font-family: "PT Sans", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-.text-box h1{
-    font-size: 62px;
-    
-}
-.text-box p{
-    margin: 10px 0 40px;
-    font-size: 14px;
-    color: #fff;
-}
-.logo{
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-}
-.logo::after{
-    content:'';
-    width:0%;
-    height: 2px;
-    background: hsl(0, 0%, 100%);
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-}
-.logo:hover::after{
-    width: 100%;
-}
-
 .hero-btn{
     display: inline-block;
     text-decoration: none;
@@ -114,7 +19,7 @@ nav img{
     transition: 1s;
 }
 .feeling {
-    width: 70%;
+    width: 75%;
     margin: auto; /* to be in the center of the screen */
     text-align: center;
     padding-top: 0px;
@@ -195,8 +100,8 @@ nav img{
     margin: auto;
     text-align: center;
     padding-top: 50px;
-    height: 5vh;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(Images/goal.jpg);
+    height: 7vh;
+    background-color: #134B70;
     background-position: center;
     background-size: cover;
     color: #fff;
@@ -210,58 +115,20 @@ nav img{
 }
 .headerpic{
     width:100%;
-    margin: 150px auto;
+    margin: 100px auto;
     text-align: center;
     padding-top: 0px;
-    height: 8vh;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(Images/hugging.jpg);
+    height: 10vh;
+    background-image: linear-gradient(rgba(4,9,30,0.2), rgba(4,9,30,0.2)), url(Images/bgsoril.jpg);
     background-position: center;
     background-size: cover;
     color: #fff;
 }
 .headerpic h1{
+    padding-top: 10px;
     font-size: 40px;
     font-weight: lighter;
 }
-.container{
-    font-family: "PT Sans", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    display:flex;
-    justify-content: center;
-}
-.card{
-    background: white;
-    width: 220px;
-    height: 310px;
-    margin: 10px;
-    box-shadow: 0 0 10px 5px rgb(241, 241, 241);
-}
-.card-image{
-    background-color: rgb(255, 255, 255);
-    height: 120px;
-    margin-bottom: 10px;
-    background-position: center;
-}
-.zurag1{
-    background-image: url(Images/listening.jpg);
-    width:100%
-}
-
-.card a {
-    color: black;
-    padding: 10px;
-    font-size: 10px;
-    font-style: italic;
-    display: inline-block; /* Required for transform effects */
-    transition: transform 0.3s ease, text-shadow 0.3s ease; /* Smooth transition */
-}
-
-.card a:hover {
-    transform: translate(-5px, -3px);
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Adds shadow effect */
-}
-
 footer {
     margin-top: 50px;
     height: 35vh;
@@ -312,7 +179,7 @@ footer {
     margin: 20px 0px;
 }
 .topic{
-    margin: auto;
+    margin: 50px auto;
     text-align: center;
     font-family: "Arsenal SC", sans-serif;
     font-weight: 400;

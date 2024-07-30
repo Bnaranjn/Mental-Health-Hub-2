@@ -3,7 +3,6 @@
   padding: 0;
 }    
 body {
-  background: white;
   background-position: center;
   background-size: cover;
   position: relative;
@@ -23,7 +22,7 @@ body {
   font-family: "Arsenal SC", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #FFFFFF; /* White */
+  color: #000000; /* White */
 }
 /*zowlogoo*/
 .zowlogoo
@@ -32,7 +31,7 @@ body {
   font-weight: 400;
   font-style: normal;
   width: 50%;
-  margin: auto;
+  margin: 50px auto;
   text-align: left;
   padding-top: 60px;
 }
@@ -99,53 +98,6 @@ body {
   display: block;
   transition: 0.5s;
 }
-.container{
-  margin-top: 30px;
-  font-family: "PT Sans", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  display:flex;
-  justify-content: center;
-}
-.card{
-  background: white;
-  width: 220px;
-  height: 300px;
-  margin: 10px;
-  box-shadow: 0 0 10px 5px rgb(241, 241, 241);
-}
-.card-image{
-  background-color: rgb(255, 255, 255);
-  height: 120px;
-  margin-bottom: 10px;
-  background-position: center;
-}
-.zurag1{
-  background-image: url(Images/listening.jpg);
-  width:100%
-}
-.card h2{
-  font-size: 14px;
-  padding: 10px;
-}
-.card p{
-  padding: 10px;
-  font-size: 10px;
-}
-.card a {
-  color: black;
-  padding: 10px;
-  font-size: 12px;
-  font-style: italic;
-  display: inline-block; /* Required for transform effects */
-  transition: transform 0.3s ease, text-shadow 0.3s ease; /* Smooth transition */
-}
-
-.card a:hover {
-  transform: translate(-5px, -3px);
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Adds shadow effect */
-}
-
 footer {
   margin-top: 50px;
   height: 35vh;

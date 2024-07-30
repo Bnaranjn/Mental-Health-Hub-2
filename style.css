@@ -4,6 +4,10 @@
     font-family: "Arsenal SC", sans-serif;
     font-weight: 400;
     font-style: normal;
+
+}
+body{
+    background-color: #FFFBF5;
 }
 .header
 {
@@ -38,7 +42,7 @@ nav img{
     color: white;
     text-decoration: none;
     font-size: 16px;
-    font-weight: bolder;
+    font-weight: bold;
 }
 .nav-links ul li::after{
     content:'';
@@ -153,6 +157,7 @@ nav img{
 }
 /*How are you feeling*/
 .feeling{
+    background-color: #FFFBF5;
     width: 50%;
     margin: auto;/*to be in the center of the screen*/
     text-align: center;

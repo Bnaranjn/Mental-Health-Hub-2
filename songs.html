@@ -4,7 +4,6 @@
         <meta name="viewport" content="width=device-width, initial scale=1.0"> 
         <title>Mental Health Hub</title>
         <link rel="stylesheet" href="stylesongs.css">
-        <link rel="stylesheet" href="dropdown.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
@@ -17,7 +16,7 @@
     </head>
     <body>
         <!--Navigaton bar-->
-        <section class="header">
+        <section class="header1">
             <nav>
                 <a class="logo" href="index.html">Mental Health Hub</a>
                 <div class="nav-links">
@@ -26,7 +25,14 @@
                         <li><a href="mentalhealth.html">Сэтгэцийн эрүүл мэнд</a></li>
                         <li><a href="setgelzuinsoril.html">Сэтгэлзүйн сорил</a></li>
                         <li><a href="examprep.html">Шалгалтын өмнөх сэтгэлзүй</a></li>
-                        <li><a href="zowlomj.html">Зөвлөмж</a></li>
+                        <div class="dropdown">
+                            <button class="dropbtn">Зөвлөмж</button>
+                            <div class="dropdown-content">
+                              <a href="parents.html">Эцэг эхтэй харилцах</a>
+                              <a href="naiz.html">Найздаа туслах</a>
+                              <a href="zowlomj.html">Хийж болох зүйлс</a>
+                            </div>
+                        </div>   
                     </ul>
                 </div>
             </nav>
@@ -73,7 +79,6 @@
                 </div>
                 <div class="card1">
                     <div class="card">
-
                         <img src="images/song6.jpg" style="width: 240px">
                     </div>
                     <a href="https://youtu.be/kzq6idkl1B4" target="_blank"><p>6.BEAUTIFUL DAY<br>PRINZ,RUSHAWN,JERMAINE EDWARDS</p></a>

@@ -1,8 +1,10 @@
 *{
     margin: 0;
     padding: 0;
-    
 }
+/*body{
+    font: normal 16px / 26px system-ui, "Roboto", Arial, sans-serif;
+}*/
 .header
 {
     height: 130px;
@@ -87,26 +89,29 @@ nav img{
     font-family: "PT Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
+
     width:60%;
     background-position: center;
     margin: 150px auto 20px;
-    color: rgb(0, 7, 73);
+    color: rgb(36, 36, 36);
 }
 .zowlogoo h1{
     font-size: 28px;
-    color:      #244c5c;
+    color:  #134B70;
     margin-top: 15px;
 }
 /*rgb(0, 7, 73)*/
 .zowlogoo p{
     font-size:14px;
     color: rgb(48, 48, 48);
-    margin-top: 15px;
+    margin-top: 5px;
     letter-spacing: 0.5px;
     line-height: 120%;
+    font: normal 16px / 26px system-ui, "Roboto", Arial, sans-serif;
 }
 .zowlogoo h2{
-    margin-top: 25px;
+    margin-top: 15px;
+    color: #201E43;
 }
 .zowlogoo h2::after{
     content:'';
@@ -126,6 +131,7 @@ nav img{
 .zowlogoo h4{
     margin-top: 15px;
     margin-bottom: 30px;
+    color: #201E43;
 }
 .zowlogoo summary{
     margin: 10px;
@@ -133,66 +139,13 @@ nav img{
     font-weight: bold;
     font-style: italic;
     cursor: pointer; 
+    color: #201E43;
     transition: transform 0.3s ease, text-shadow 0.3s ease; 
 }
 .zowlogoo summary:hover{
     transform: translate(-5px, -3px);
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Adds shadow effect */
 
-}
-.container{
-    margin-top: 100px;
-    font-family: "PT Sans", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    display:flex;
-    justify-content: center;
-}
-.card{
-    background: white;
-    width: 220px;
-    height: 300px;
-    margin: 10px;
-    box-shadow: 0 0 10px 5px rgb(241, 241, 241);
-}
-.card-image{
-    background-color: rgb(255, 255, 255);
-    height: 120px;
-    margin-bottom: 10px;
-    background-position: center;
-}
-.zurag1{
-    background-image: url(Images/listening.jpg);
-    width:100%
-}
-.card h2{
-    font-size: 14px;
-    padding: 10px;
-}
-.h2{
-    height: 60px;
-}
-.p{
-    height: 60px;
-}
-.card p{
-    padding: 10px;
-    color:#121b2575;
-    font-size: 12px;
-}
-.card a {
-    color: black;
-    padding: 10px;
-    font-size: 14px;
-    font-style: italic;
-    display: inline-block; /* Required for transform effects */
-    transition: transform 0.3s ease, text-shadow 0.3s ease; /* Smooth transition */
-    margin-bottom: 10px;
-}
-
-.card a:hover {
-    transform: translate(-5px, -3px);
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Adds shadow effect */
 }
 
 footer {
