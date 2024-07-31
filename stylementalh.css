@@ -10,9 +10,10 @@ h1{
     font: normal 16px / 26px system-ui, "Roboto", Arial, sans-serif;
     font-weight: 400;
     font-style: normal;
-    width: 50%;
+    width: 70%;
     margin: 180px auto;
     text-align: left;
+    display: flex;
 }
 .mainp p{
     color: rgb(48, 48, 48);
@@ -97,10 +98,9 @@ footer {
     transition: 0.5s;
 }
 .sidenav{
-    
-    width: 280px;
+    width: 20%;
     height: 300px;
-    position: fixed;
+   /* position: fixed;*/
     z-index: 1;
     top: 200px;
     right: 50px;
@@ -108,7 +108,7 @@ footer {
     overflow-x: hidden;
     padding: 8px 0;
     border-radius: 30px;
-    font-family: "PT Sans", sans-serif;
+    font: normal 16px / 26px system-ui, "Roboto", Arial, sans-serif;
     font-weight: 400;
     font-style: normal;
 }
