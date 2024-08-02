@@ -4,12 +4,11 @@
 }
 /*body{
     font: normal 16px / 26px system-ui, "Roboto", Arial, sans-serif;
-}*/
+}
 .header
 {
     height: 130px;
     width: 100%;
-    /*background-color: #2C3E50;*/
     background-position: center;
     background-size: cover;
     position: relative;
@@ -84,7 +83,7 @@ nav img{
 }
 .logo:hover::after{
     width: 100%;
-}
+}*/
 .zowlogoo{
     font-family: "PT Sans", sans-serif;
     font-weight: 400;
